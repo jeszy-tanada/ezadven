@@ -1,0 +1,87 @@
+.list-group .list-group-item:not(.active) a{
+    color: #755C3B !important;
+}
+.bg-dark-brown, .nav-pills .nav-link.active, .list-group .list-group-item.active{
+    background-color: #755C3B !important;
+    border-color: #755C3B;
+    color: #f5f5f5 !important;
+}
+
+.bg-brown{
+    background-color: #A37E58;
+}
+.bg-light-brown{
+    background-color: #CDBB99;
+}
+.bg-vanilla{
+    background-color: #FCFBE3;
+}
+.bg-pink{
+    background-color: #FBCFCF;
+}
+
+.text-dark-brown{
+    color: #755C3B;
+}
+.text-brown{
+   color: #A37E58;
+}
+.text-light-brown{
+    color: #CDBB99;
+}
+.text-vanilla{
+    color: #FCFBE3;
+}.text-pink{
+     color: #FBCFCF;
+ }
+a.text-vanilla{
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    text-decoration: none;
+}
+a.text-vanilla:hover,a.text-dark-brown{
+    color: #755C3B;
+}
+
+.rosw{
+    border:1px solid black;
+}
+body{
+    height: 100%;
+}
+.opening{
+    background-image: url("../img/palaw1.jpg");
+    background-size: cover;
+    min-height: 640px;
+}
+.bg-half-gray{
+    background-color: rgba(100,100,100,0.1);
+}
+.bg-trans-gray{
+    background-color: rgba(0,0,0,0.7);
+}
+.stroke{
+    -webkit-text-stroke: 1px grey;
+}
+.bold{
+    font-weight: bold;
+}
+.halfer{
+    background-color: rgba(0,0,0,0.5);
+}
+.tourbox{
+
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+#footer_menu p, #footer_social p{
+    margin: 0;
+}
